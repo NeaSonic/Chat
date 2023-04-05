@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(61, 61, 61);
+}
+
+/* LOGIN FORM */
+
+.error--box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap:5px;
+}
+
+.error--component {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:row;
+    gap:5px;
+    background-color:rgb(18, 1, 20);
+    padding: 5px;
+    border-radius: 25px;
+    border-color:rgb(0, 10, 54);
+    border-style:solid;
+    max-height: 20px;
+}
+
+.error--component p {
+    text-align:center;
+    color:white;
+    font-size:18px;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.login--form {
+    display:grid;
+    grid-template-columns: repeat(20, 1fr);
+    padding: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-style:solid;
+    border-radius:10px;
+    font-size:25px;
+    font-family: DejaVu Sans Mono, monospace;
+    border-color:rgb(143, 143, 130);
+    background-color: #252525;
+}
+
+.login--form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login--form .par {
+    max-width: 150px;
+    grid-column: span 6;
+    margin-left: 12px;
+}
+
+.login--form .img {
+    grid-column: span 2;
+}
+
+.login--form .inp {
+    grid-column: span 12;
+}
+
+.login--form .btn {
+    grid-column: span 10;
+}
+
+.login--form p {
+    text-align:center;
+    color:white;
+}
+
+.login--form input {
+    font-size:25px;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.login--form button {
+    width: 140px;
+    font-size: 25px;
+    font-family: DejaVu Sans Mono, monospace;
+    color:white;
+    background-color: black;
+    border-radius: 7px;
+    border-style:solid;
+    border-color:rgb(143, 143, 130);
+}
+
+.login--form button:hover{
+    background-color:#aba9a9;
+    transition-duration:500ms;
+}
+.login--form button:active{
+    transform:scale(0.90);
+}
+
+
+/*message default redirect*/
+
+.message--default--redirect {
+    position:absolute;
+    max-width: 45%;
+    top:50%;
+    left:50%;
+    font-size:25px;
+    font-family: DejaVu Sans Mono, monospace;
+    border-radius: 7px;
+    border-style:solid;
+    border-color:rgb(143, 143, 130);
+    background-color: #252525;
+}
+.message--default--redirect p {
+    text-align:center;
+    color:white;
+}

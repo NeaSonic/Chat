@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg5">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       id="circle221"
+       style="fill:#008000;stroke-width:1.30807"
+       d="M 60 10 A 50 50 0 0 0 10 60 A 50 50 0 0 0 60 110 A 50 50 0 0 0 110 60 A 50 50 0 0 0 60 10 z M 60 20 A 40 40 0 0 1 100 60 A 40 40 0 0 1 60 100 A 40 40 0 0 1 20 60 A 40 40 0 0 1 60 20 z " />
+    <rect
+       style="fill:#008000;stroke-width:0.23967"
+       id="rect466"
+       width="77.434883"
+       height="7.4179311"
+       x="-60.301796"
+       y="97.822464"
+       transform="rotate(-61)" />
+    <rect
+       style="fill:#008000;stroke-width:0.22013"
+       id="rect487"
+       width="71.311111"
+       height="6.7950811"
+       x="54.471214"
+       y="35.613045"
+       transform="matrix(0.77013897,0.63787614,-0.74767859,0.66406079,0,0)" />
+  </g>
+</svg>
